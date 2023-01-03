@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $message): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+  <p style="color:#D90B0B;" > <?php echo e($message); ?> </p>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH C:\xampp\htdocs\LaravelProjects\assignment\resources\views/includes/includeErrors.blade.php ENDPATH**/ ?>
